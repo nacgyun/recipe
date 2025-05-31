@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Generated Recipe</title>
-    </head>
-    <body>
-        <h2>Your Recipe:</h2>
-        <p>{{recipe|safe}}</p>
-        <br/>
-        <p>202081005 nacgyun kim</p>
-        <a href="/">Generate another recipe</a>
-    </body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+<div id="root" class="container">
+  <div class="page-header">
+    <h2 class="alert alert-success">Generated Recipe</h2>
+    <p>{{ recipe|safe }}</p>
+    <br/>
+    <p>202081005 nacgyun kim</p>
+    <a href="/">Generate another recipe</a>
+  </div>
+</div>
+{% endblock %}

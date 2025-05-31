@@ -18,7 +18,6 @@ cuisines = [
     "Mediterranean",
     "American",
     "Greek",
-    "Korean"
 ]
 
 dietary_restrictions = [
